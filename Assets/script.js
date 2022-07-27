@@ -29,7 +29,7 @@ function pwVariables() {
     alert("Please select a number between 8 and 128.")
     return
   }
-
+// Getting password parameters
   var askForNumbers = confirm("Do you want your password to include numbers?");
   var askForLowerCase = confirm("Do you want to have lower-case letters?");
   var askForUpperCase = confirm("Do you want to have upper-case letters?");
@@ -50,7 +50,7 @@ function pwVariables() {
 
   return responses;
 }
-
+// Creating function to generate random characters based on user-choice.
 function generatePassword() {
 
   var responses = pwVariables();
@@ -76,8 +76,7 @@ function generatePassword() {
     password.push(userChoices[index])
   }
 
-  //  console.log('password: ', password)
-
+// Displaying PW
   return password.join("");
 
 }
