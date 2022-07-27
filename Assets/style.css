@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+}
+
+.box {
+    border: 5px solid blue;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    vertical-align: text-top;
+
+}
+
+#button {
+    display: flex;
+    margin: auto;
+    background-color: red;
+}
+
+body {
+    background-color: aquamarine;
+    margin:auto;
+}
+
+/* #password {
+    text-align: center;
+} */
