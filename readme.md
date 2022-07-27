@@ -6,4 +6,6 @@
 
 To design a site capable of randomly generating a password based on different, user-selected criteria. 
 
+### Screenshot
+
 ![screenshot](./Assets/PW-Generator-Screenshot.png)
